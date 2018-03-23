@@ -54,7 +54,7 @@ public class fromHurricane extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("PLease enter the scale of the hurricane(1-5):");
+        jLabel2.setText("Please enter the scale of the hurricane(1-5):");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -96,8 +96,8 @@ public class fromHurricane extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(windLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(outputLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(88, Short.MAX_VALUE))
+                .addComponent(outputLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(83, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -117,7 +117,7 @@ public class fromHurricane extends javax.swing.JFrame {
     private void buttonEnterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonEnterActionPerformed
         
         int scale = Integer.parseInt(inputField.getText());
-        switch(scale)
+        switch(scale) 
         {
             case 1:
                 windLabel.setText("The Windspeeds of Category 1 are:");
@@ -141,6 +141,7 @@ public class fromHurricane extends javax.swing.JFrame {
                 break;
             default:
                 windLabel.setText("Invalid Category");
+                outputLabel.setText("Invalid");
         }
     }//GEN-LAST:event_buttonEnterActionPerformed
 

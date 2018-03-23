@@ -83,8 +83,8 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="windLabel" min="-2" pref="26" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="outputLabel" min="-2" pref="16" max="-2" attributes="0"/>
-                  <EmptySpace pref="88" max="32767" attributes="0"/>
+                  <Component id="outputLabel" min="-2" pref="21" max="-2" attributes="0"/>
+                  <EmptySpace pref="83" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -115,7 +115,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="PLease enter the scale of the hurricane(1-5):"/>
+            <Property name="text" type="java.lang.String" value="Please enter the scale of the hurricane(1-5):"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="windLabel">
